@@ -1,0 +1,28 @@
+.stepper_bar {
+  width: 90%;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 0 60px;
+
+    @media screen and (max-width: 480px) {
+      padding: 0px 0 10px;
+    }
+  }
+
+  &-item {
+    display: inline-block;
+    height: 5px;
+    background-color: $primary-color;
+    width: 100%;
+    max-width: 150px;
+    margin-right: 5px;
+
+    &-active {
+      @extend .stepper_bar-item;
+      background-color: $text-color;
+    }
+  }
+}

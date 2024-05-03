@@ -1,0 +1,16 @@
+// @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './_variables.scss';
+@import './common.scss';
+@import './stepper.scss';
+@import './PageForm.scss';
+@import './CustomSteps.scss';
+@import './BankDetails.scss';
+@import './Step2.scss';
+@import './Step3.scss';
+@import './StepperBar.scss';
+@import './PageHeader.scss';
+@import './StepTitle.scss';
+@import './Home.scss';

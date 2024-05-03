@@ -1,0 +1,17 @@
+.card {
+  background-color: $color-white;
+  padding: 30px 20px;
+  max-height: 400px;
+  overflow-y: auto;
+
+  scrollbar-color: $text-color $color-white;
+  scrollbar-width: auto;
+
+  .formCustomCheckBox {
+    padding-top: 0;
+  }
+
+  .form-field-desc {
+    margin-bottom: 20px;
+  }
+}

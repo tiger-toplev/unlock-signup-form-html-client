@@ -1,0 +1,38 @@
+.home {
+  &-list {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    max-width: 400px;
+
+    @media (max-width: 480px) {
+      max-width: 260px;
+    }
+
+    li {
+      color: $primary-color;
+      margin-bottom: 4px;
+    }
+  }
+
+  &-btn {
+    background-color: $cta-gradient;
+
+    -webkit-transition: background-color $quick-transition linear;
+    -moz-transition: background-color $quick-transition linear;
+    -o-transition: background-color $quick-transition linear;
+    -ms-transition: background-color $quick-transition linear;
+    transition: background-color $quick-transition linear;
+
+    &:hover {
+      background-color: $cta-gradient-hover;
+    }
+  }
+}
+
+h3.subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+}

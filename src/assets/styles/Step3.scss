@@ -1,0 +1,26 @@
+/*
+.step3 {
+  p {
+    margin-left: 10px;
+    & > span.ft1 {
+      margin-left: 10px;
+    }
+
+    & > span {
+      margin-left: 30px;
+    }
+  }
+
+  .ft6 {
+    font-weight: bold;
+  }
+}
+*/
+
+@media screen and (max-width: 480px) {
+  .form-field-desc.step3 {
+    p {
+      word-break: break-all;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.page_header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: $fs-header;
+    line-height: $line-spacing;
+    text-align: center;
+
+    @media screen and (max-width: 480px) {
+      font-size: 23px;
+      text-align: center;
+      width: 90%;
+    }
+  }
+
+  &-logo {
+    max-width: 200px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

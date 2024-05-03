@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #468b07;
+}
+
+$primary-color: var(--primary-color);
+$primary-dark-color: #2C6A04;
+$active-color: #2f570d;
+$text-color: #585858;
+$alert-border-color: #468b07;
+$input-border-color: #dcdcdc;
+
+$color-white: #fff;
+
+$primary-background: #c4d7ca;
+$secondary-background: #ffffff;
+
+$button-hover-color: #2c6a04;
+
+$primary-border-radius: 5px;
+$secondary-border-radius: 10px;
+
+$fs-button: 14px;
+$fs-label: 18px;
+$fs-copy: 20px;
+$fs-header: 37px;
+$fs-small-header: 30px;
+
+$letter-spacing: -1px;
+$line-spacing: 1.2;
+
+$tablet: 730px;
+$container-width: 1400px;
+
+$cta-background: rgb(69, 124, 67);
+$cta-gradient: linear-gradient(47deg, rgba(69, 124, 67, 1) 0%, rgba(116, 162, 72, 1) 59%, rgba(171, 206, 78, 1) 93%);
+
+$cta-gradient-hover: linear-gradient(
+  47deg,
+  rgba(69, 124, 67, 1) 0%,
+  rgba(116, 162, 72, 1) 94%,
+  rgba(171, 206, 78, 1) 100%
+);
+
+$quick-transition: 150ms;
